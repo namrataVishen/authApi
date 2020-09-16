@@ -1,0 +1,17 @@
+{
+  "development": {
+    "PORT": 5000,
+    "MONGODB_URI": "mongodb://localhost:27017/Auth",
+    "REFRESH_SECRET":"9ff88672da78e411968440a62619c1891ea99160c3023a9d2c8e23c860de6aa882de6af20d36e7d355865895a99890024f0c",
+    "JWT_SECRET": "5f016eb077bc484d4df4d5c0a9c0c3340bdc71a22a1aece961381d2b2a3e54d89b75f149042ba1e3b901843fabb577e343ef",
+    "JWT_EXP": "10m",
+    "REDIS_HOST":"127.0.0.1",
+    "REDIS_PORT":"6379"
+  },
+  "production": {
+    "PORT": 80,
+    "MONGODB_URI": "mongodb://xxxxx/DB_Name",
+    "JWT_SECRET": "5f016eb077bc484d4df4d5c0a9c0c3340bdc71a22a1aece961381d2b2a3e54d89b75f149042ba1e3b901843fabb577e343ef",
+    "JWT_EXP": "2m"
+  }
+}
